@@ -1,3 +1,3 @@
-FROM ubuntu:alpine
+FROM node:lts-alpine
 
 ENTRYPOINT [ "echo","hello" ]
